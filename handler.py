@@ -1,11 +1,9 @@
 import json
 import spacy
 
-# nltk.data.path.append("/tmp") 
 
-# nltk.download('tagsets', download_dir="/tmp")
 
-nlp = spacy.load("/opt/en_core_web_sm-1.2.0/en_core_web_sm")
+nlp = spacy.load("/opt/en_core_web_sm-2.2.5/en_core_web_sm/en_core_web_sm-2.2.5")
 
 
 def lambda_handler(event, context):
