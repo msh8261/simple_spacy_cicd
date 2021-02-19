@@ -5,7 +5,7 @@ import spacy
 
 # nltk.download('tagsets', download_dir="/tmp")
 
-nlp = spacy.load("opt/en_core_web_sm")
+nlp = spacy.load("/opt/en_core_web_sm-1.2.0/en_core_web_sm")
 
 
 def lambda_handler(event, context):

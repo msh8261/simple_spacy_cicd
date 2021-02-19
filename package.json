@@ -2,7 +2,9 @@
   "name": "simple_spacy_cicd",
   "description": "",
   "version": "0.1.0",
-  "dependencies": {},
+  "dependencies": {
+    "cache": "^2.3.1"
+  },
   "scripts": {
     "deploy": "serverless deploy"
   },
