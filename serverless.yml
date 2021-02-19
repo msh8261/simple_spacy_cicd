@@ -29,7 +29,7 @@ functions:
     handler: handler.lambda_handler
     events:
       - http:
-          path: nltk
+          path: spacy
           method: post
 
 plugins:
