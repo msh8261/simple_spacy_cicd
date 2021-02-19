@@ -1,0 +1,1 @@
+simple spacy ci/cd
