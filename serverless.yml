@@ -10,7 +10,7 @@ check:
   description: Checks for package 
   runtime: python3.8
   timeout: 30
-  memorySize: 256
+  memorySize: 800
   layers:    
     - arn:aws:lambda:us-east-2:770693421928:layer:Klayers-python38-spacy:38
     - arn:aws:lambda:us-east-2:770693421928:layer:Klayers-python38-spacy_model_en_small:1
