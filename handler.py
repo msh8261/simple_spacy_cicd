@@ -15,8 +15,3 @@ def lambda_handler(event, context):
     }
 
 
-event = {"body": 'Tesla is looking at buying U.S. startup for $6 million, is it ok?'}
-
-res = lambda_handler(event, '')
-
-print(res)
