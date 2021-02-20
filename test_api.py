@@ -1,7 +1,7 @@
 import requests
 import json
 
-
+'''
 input_data = {"body": ['The sky is blue and beautiful.',
                   'Love this blue and beautiful sky!',
                   'The quick brown fox jumps over the lazy dog.',
@@ -12,8 +12,8 @@ input_data = {"body": ['The sky is blue and beautiful.',
                   'The dog is lazy but the brown fox is quick!'    
             ]
         }
-
-
+'''
+input_data = {"body": 'The sky is blue and beautiful. Love this blue and beautiful sky!The quick brown fox jumps over the lazy dog.'}
 
 url = "https://q0cl1wwzb7.execute-api.us-east-2.amazonaws.com/dev/spacy"
 
