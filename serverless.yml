@@ -6,7 +6,7 @@ provider:
   timeout: 60
 
 check:
-  handler: 02_pipeline/check.main
+  handler: 01_pipeline/check.main
   description: Checks for package 
   runtime: python3.8
   timeout: 30
